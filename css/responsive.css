@@ -1,0 +1,18 @@
+/*MIN WIDTH*/
+@media (min-width: 992px) {
+    #area-cabecalho .nav-link{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+}
+
+/*MAX WIDTH*/
+@media (max-width: 991.98px) {
+    #area-cabecalho .navbar-collapse{
+        width: 100%;
+    }
+}
+
+
+

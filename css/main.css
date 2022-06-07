@@ -1,0 +1,115 @@
+@import url(./bootstrap.min.css);
+@import url(./custom.css);
+@import url(./responsive.css);
+
+body{
+    font-family: 'Trebuchet MS', 'Helvetica', Arial, sans-serif;
+}
+
+/* TEXTS */
+h1 {
+    color: #099e71;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+
+h2 {
+    color: #099e71;
+
+}
+
+h3 {
+    color: #565656;
+    background: #cccccc;
+    padding: 5px;
+
+}
+
+#texto {
+    text-align: justify;
+}
+
+/* LAYOUT */
+
+#area-cabecalho {
+    background-color: #22333B;
+    width: 100%;
+
+}
+
+.postagem {
+    background: white;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color: #0aa378;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+/* Formatação Cards */
+
+.card {
+    background-color: #f5f5f5;
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    background-color: #05ac7a;
+}
+
+.acesse {
+    background: rgb(230, 229, 229);
+    padding: 5px;
+}
+
+/* Formatação botão-topo */
+
+.voltar {
+    background: #ffffffde;
+}
+
+.topo{
+    right: 224px;
+    outline: none;
+    background: #22333B;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 55px;
+    right: -224px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+    font-size: 40px;
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    padding-right: calc(var(--bs-gutter-x) * .90);
+}
+
+/* Formatação do rodapé*/
+
+#rodape {
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    margin-top: 1em;
+}
